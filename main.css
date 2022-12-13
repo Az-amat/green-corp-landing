@@ -29,6 +29,16 @@ button {
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
 }
+.about {
+    position: relative;
+ }
+ 
+ .orb-canvas {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+ }
 .about__image {
     width: 500px;
   }
