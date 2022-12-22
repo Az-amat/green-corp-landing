@@ -18,6 +18,18 @@ header a {
           font-size: 15px;
           font-weight: 600;
           margin-right: 25px;}
+header {
+            position: fixed;
+            background: none;
+            left: 0;
+            right: 0;
+            transition: box-shadow, background-color .25s ease;
+          }
+           
+.header__scrolled {
+            background-color: white;
+            box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
+          }
 button {
     font-family: "Raleway, sans-serif";
     font-size: 15px;
@@ -31,6 +43,7 @@ button {
 }
 .about {
     position: relative;
+    padding-top: 200px;
  }
  
  .orb-canvas {
